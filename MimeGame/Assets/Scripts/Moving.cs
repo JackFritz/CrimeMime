@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour
 {
-   // public Animator animator; // get animator
+    public Animator animator; // get animator
     public float speed = 10f; // set up speed
     public float moveHorizontal; // call new float for horizontal movement
     public float moveVertical; // call new float for vertical movement
@@ -23,8 +23,8 @@ public class Moving : MonoBehaviour
 
         moveVertical = Input.GetAxis("Vertical") * speed; // move ver
 
-        //animator.SetFloat("VerSpeed", moveHorizontal); // get animation
-        //animator.SetFloat("HorSpeed", moveVertical); // get animation
+        animator.SetFloat("HorSpeed", Mathf.Abs(moveHorizontal)); // get animation
+        animator.SetFloat("VerSpeed", Mathf.Abs(moveVertical)); // get animation
 
 
 
