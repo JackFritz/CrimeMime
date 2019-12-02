@@ -125,12 +125,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 45
-        height: 60
+        x: 16
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 2
-        width: 50
-        height: 58
+        x: 76
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_2
       rect:
         serializedVersion: 2
-        x: 131
+        x: 136
         y: 4
-        width: 41
-        height: 56
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_3
       rect:
         serializedVersion: 2
-        x: 190
-        y: 1
-        width: 41
-        height: 58
+        x: 196
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_4
       rect:
         serializedVersion: 2
-        x: 249
-        y: 2
-        width: 44
-        height: 57
+        x: 256
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_5
       rect:
         serializedVersion: 2
-        x: 308
-        y: 2
-        width: 44
-        height: 58
+        x: 316
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_6
       rect:
         serializedVersion: 2
-        x: 369
-        y: 2
-        width: 49
-        height: 57
+        x: 376
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +272,12 @@ TextureImporter:
       name: MelvinMimeIdleSpSheet_7
       rect:
         serializedVersion: 2
-        x: 432
-        y: 0
-        width: 41
-        height: 59
+        x: 436
+        y: 4
+        width: 33
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
