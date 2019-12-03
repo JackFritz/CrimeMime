@@ -46,5 +46,9 @@ public class Health : MonoBehaviour
             HP -= 1f;
             Ouch.Play();
         }
+        if (collision.gameObject.tag == "win")
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }

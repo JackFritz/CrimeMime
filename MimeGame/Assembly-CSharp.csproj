@@ -62,15 +62,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Abilities\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Abilities\Gun.cs" />
-    <Compile Include="Assets\Scripts\Abilities\Hit.cs" />
-    <Compile Include="Assets\Scripts\Abilities\Melee.cs" />
-    <Compile Include="Assets\Scripts\Button.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\Health.cs" />
-    <Compile Include="Assets\Scripts\Moving.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Move1.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Move2.cs" />
+    <Compile Include="Assets\Scripts\Menus\Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\WinButton.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\Block.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\DoNotTouch\Melee.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\Gun.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\Hit.cs" />
+    <Compile Include="Assets\Scripts\Player\Camera.cs" />
+    <Compile Include="Assets\Scripts\Player\Health.cs" />
+    <Compile Include="Assets\Scripts\Player\Moving.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/jwjf1/OneDrive/Documents/210/CrimeMime/MimeGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

@@ -11,11 +11,12 @@ public class Melee : MonoBehaviour
     public LayerMask whatIsEnemies;
     public float attackRange;
     public int damage;
-
+    
    
     // Update is called once per frame
     void Update()
     {
+        
         if(timeBtwAttack <= 0)
         {
             if (Input.GetKey(KeyCode.L))
