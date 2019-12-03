@@ -6,6 +6,8 @@ public class Gun : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public AudioSource JohnWick;
+    public Animator bang;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +21,15 @@ public class Gun : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            JohnWick.Play();
+           bang.SetTrigger("IsShooting");
+            
         }
+
     }
+
+   
+
     void Shoot()
     {
         //Shooting Mechanics, Press the Space Bar to Shoot

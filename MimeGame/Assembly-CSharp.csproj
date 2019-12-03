@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Abilities\Bullet.cs" />
     <Compile Include="Assets\Scripts\Abilities\Gun.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Hit.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Melee.cs" />
     <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
