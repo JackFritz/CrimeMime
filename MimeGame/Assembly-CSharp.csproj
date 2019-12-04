@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Menus\Plot4Button.cs" />
     <Compile Include="Assets\Scripts\Menus\Plot5Button.cs" />
     <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
+    <Compile Include="Assets\Scripts\Menus\Typewriter.cs" />
     <Compile Include="Assets\Scripts\Menus\WinButton.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Block.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Bullet.cs" />
