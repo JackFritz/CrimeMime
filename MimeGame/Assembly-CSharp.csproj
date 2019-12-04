@@ -66,6 +66,12 @@
     <Compile Include="Assets\Scripts\Enemy\Move1.cs" />
     <Compile Include="Assets\Scripts\Enemy\Move2.cs" />
     <Compile Include="Assets\Scripts\Menus\Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Plot1Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Plot2Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Plot3Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Plot4Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Plot5Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
     <Compile Include="Assets\Scripts\Menus\WinButton.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Block.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Bullet.cs" />
