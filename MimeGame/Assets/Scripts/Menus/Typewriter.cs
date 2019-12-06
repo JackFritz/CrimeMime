@@ -25,7 +25,7 @@ IEnumerator PlayText()
     foreach (char c in story)
     {
         txt.text += c;
-        yield return new WaitForSeconds(0.08f);
+        yield return new WaitForSeconds(0.04f);
     }
 }
 
