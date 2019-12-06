@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Enemy\Move1.cs" />
     <Compile Include="Assets\Scripts\Enemy\Move2.cs" />
     <Compile Include="Assets\Scripts\Menus\Button.cs" />
+    <Compile Include="Assets\Scripts\Menus\Credits.cs" />
+    <Compile Include="Assets\Scripts\Menus\HTPButton.cs" />
     <Compile Include="Assets\Scripts\Menus\Plot1Button.cs" />
     <Compile Include="Assets\Scripts\Menus\Plot2Button.cs" />
     <Compile Include="Assets\Scripts\Menus\Plot3Button.cs" />

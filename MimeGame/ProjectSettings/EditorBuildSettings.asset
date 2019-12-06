@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story/Warning.unity
     guid: 4c81168449ad95e44ab52c12d2ab0126
+  - enabled: 1
+    path: Assets/Scenes/Menus/HowToPlay.unity
+    guid: d9f28d17fdd2ae648b5f3f0f587bc6b3
+  - enabled: 1
+    path: Assets/Scenes/Menus/Credits.unity
+    guid: 366349c04d7077f4b98277bf6dff8c32
   m_configObjects: {}
