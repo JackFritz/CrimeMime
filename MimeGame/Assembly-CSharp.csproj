@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\Move1.cs" />
     <Compile Include="Assets\Scripts\Enemy\Move2.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Water.cs" />
     <Compile Include="Assets\Scripts\Menus\Button.cs" />
     <Compile Include="Assets\Scripts\Menus\Credits.cs" />
     <Compile Include="Assets\Scripts\Menus\HTPButton.cs" />
@@ -78,7 +79,7 @@
     <Compile Include="Assets\Scripts\Menus\WinButton.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Block.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Player\Abilities\DoNotTouch\Melee.cs" />
+    <Compile Include="Assets\Scripts\Player\Abilities\DoNotTouch\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Gun.cs" />
     <Compile Include="Assets\Scripts\Player\Abilities\Hit.cs" />
     <Compile Include="Assets\Scripts\Player\Camera.cs" />
