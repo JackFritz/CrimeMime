@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Player\Camera.cs" />
     <Compile Include="Assets\Scripts\Player\Health.cs" />
     <Compile Include="Assets\Scripts\Player\Moving.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/jwjf1/OneDrive/Documents/210/CrimeMime/MimeGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
