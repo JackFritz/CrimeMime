@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Move2 : MonoBehaviour
 {
-    float speed = -5f;
+    float speed = -10f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Move2 : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "wall")
+        if (collision.gameObject.tag == "enemy")
         {
             speed = speed * -1;
         }
