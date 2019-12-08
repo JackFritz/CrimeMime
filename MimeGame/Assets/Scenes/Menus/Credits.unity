@@ -548,7 +548,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453569995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc6bcb323735104faab380cfafb2127, type: 3}
+  m_Script: {fileID: 11500000, guid: af24e9a78cce85348bb6c7fc4f75eeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1453569997
@@ -723,7 +723,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1453569996}
-        m_MethodName: StartGame
+        m_MethodName: LeaveGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
