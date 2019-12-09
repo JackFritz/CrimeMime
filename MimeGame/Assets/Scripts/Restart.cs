@@ -14,9 +14,9 @@ public class Restart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Tab))
+        if (Input.GetKey(KeyCode.Tab))// hit the tab button
         {
-            SceneManager.LoadScene("Title");
+            SceneManager.LoadScene("Title");// loads the title scene
         }
 
     }
