@@ -26,8 +26,8 @@ public class Bullet : MonoBehaviour
         EnemyHealth enemy= hitInfo.GetComponent<EnemyHealth>();
         if (enemy != null)
         {
-            enemy.TakeDamage(100);
+            enemy.TakeDamage(100);// when hit enemy takes 100 damage
         }
-        Destroy(gameObject);
+        Destroy(gameObject);// destroys game object
     }
 }

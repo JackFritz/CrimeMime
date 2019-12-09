@@ -16,10 +16,10 @@ public class Hit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKey(KeyCode.L))// hit the L button
         {
-            Whip.Play();
-            Swing.SetTrigger("IsHitting");
+            Whip.Play();// play the whip audio
+            Swing.SetTrigger("IsHitting");// activate the whip animator
             
         }
     }

@@ -18,11 +18,11 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))//on pressing down the button
         {
-            Shoot();
-            JohnWick.Play();
-           bang.SetTrigger("IsShooting");
+            Shoot();// shoot function called
+            JohnWick.Play();// john wick audio played
+           bang.SetTrigger("IsShooting");// bang animation palys
             
         }
 
