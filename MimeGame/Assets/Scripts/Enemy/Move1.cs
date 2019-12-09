@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Move1 : MonoBehaviour
 {
-    float speed = -5f;
+    float speed = -5f;// set speed 5 to the left
 
     // Start is called before the first frame update
     void Start()
@@ -15,15 +15,15 @@ public class Move1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);// have character move up and down
 
       
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)// on collision
     {
-        if(collision.gameObject.tag == "wall")
+        if(collision.gameObject.tag == "wall")// on collision with gameobject wall
         {
-            speed = speed * -1;
+            speed = speed * -1;// have speed go to the other direction
         }
     }
 }
