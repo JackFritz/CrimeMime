@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class TitleButton : MonoBehaviour
 {
-    public void StartGame()
+    public void StartGame()// hit start game button
     {
-        SceneManager.LoadScene("Plot1");
+        SceneManager.LoadScene("Plot1");// loads plot 1 scene
     }
 }

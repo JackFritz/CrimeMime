@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
-    public void StartGame()
+    public void StartGame()// hit start game button
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1");// loads level 1 scene
     }
 }

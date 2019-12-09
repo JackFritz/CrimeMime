@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Plot5Button : MonoBehaviour
 {
-    public void NextScene()
+    public void NextScene()// next scene button hit
     {
-        SceneManager.LoadScene("Warning");
+        SceneManager.LoadScene("Warning");// loads warning scene
     }
 }

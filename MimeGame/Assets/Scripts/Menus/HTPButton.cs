@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class HTPButton : MonoBehaviour
 {
-    public void Instructions()
+    public void Instructions()// hit button instructions
     {
-        SceneManager.LoadScene("HowToPlay");
+        SceneManager.LoadScene("HowToPlay");// how to play scene loads
     }
 }

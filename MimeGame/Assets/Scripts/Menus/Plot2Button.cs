@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Plot2Button : MonoBehaviour
 {
-    public void NextScene()
+    public void NextScene()// next scene button hit
     {
-        SceneManager.LoadScene("Plot3");
+        SceneManager.LoadScene("Plot3");// loads plot 3 scene
     }
 }

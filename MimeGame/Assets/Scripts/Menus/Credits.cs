@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
-    public void RollCredits()
+    public void RollCredits()// hit roll credits button
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Credits");// loads credit scene
     }
 }
